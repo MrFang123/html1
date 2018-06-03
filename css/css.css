@@ -1,0 +1,49 @@
+/* 未访问链接*/
+/* 已访问链接 */
+/* 鼠标移动到链接上 */
+/* 鼠标点击时 */
+a:link{color:green;text-decoration: none;}
+a:visited{color:burlywood;text-decoration: none;}
+a:hover{color:black;text-decoration: none;}
+a:active{color:yellow;text-decoration: none;}
+
+#a{list-style-type: circle;}
+#b{list-style-type: square;}
+#c{list-style-type: upper-roman;}
+#d{list-style-type: lower-alpha;}
+#e{list-style-image: url(../img/1.png);}
+#f
+{
+	background-image: url(../img/1.png);
+	background-repeat: no-repeat;
+	background-position: 0px 5px;
+	padding-left: 5px;
+}
+table,th,td
+{
+	border:1px solid black;
+	text-align: right;
+	padding:15px;
+}
+th{background-color: red;}
+#tab{border-collapse: collapse;}
+/*Margin(外边距) - 清除边框外的区域，外边距是透明的。
+Border(边框) - 围绕在内边距和内容外的边框。
+Padding(内边距) - 清除内容周围的区域，内边距是透明的。
+Content(内容) - 盒子的内容，显示文本和图像。*/
+/*最终元素的总宽度计算公式是这样的：
+总元素的宽度=宽度+左填充+右填充+左边框+右边框+左边距+右边距
+元素的总高度最终计算公式是这样的：
+总元素的高度=高度+顶部填充+底部填充+上边框+下边框+上边距+下边距*/
+#p1{border-style: none;}
+#p2{border-style: dotted;border-color: yellow;}
+#p3{border-style: dashed;border-color: blue;}
+#p4{border-style: solid;border-color: red;}
+#p5{border-style: double;border-color: green;}
+#p6{border-style: groove;}
+#p7{border-style: ridge;}
+#p8{border-style: inset;}
+#p9{border-style: outset;}
+#p10{border-style: hidden;}
+#p11{border:10px solid yellow;}
+#p12{border:10px solid blueviolet;outline: 20px solid red;content: 10px;}
